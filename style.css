@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 92px;
+}
+.header_title{
+    font-size: 2rem;
+   color: white;
+   margin: 30px 0px 30px 200px;
+        font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+.header ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+   margin-left: 314px;
+    justify-content: center;
+   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550px;
+  font-style: normal;
+
+}
+.header ul li{
+    list-style: none;
+    color: white;
+    
+}
+.btn{
+    height: 44px;
+    width: 135px;
+    border-radius: 12px;
+    background-color: #897e04;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 314px;
+    margin-top: 24px;
+}
+.btn img{
+    width: 15px;
+    height: 12.5px;
+     color: white;
+     display: flex;
+    
+     
+}
+.inside_btn{
+      display: flex;
+     
+}
+.btn1{
+    height: 44px;
+    width: 135px;
+    border-radius: 12px;
+    background-color: #897e04;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .hero {
+  display: grid;
+  place-items: center;
+  background-image: url('assets/apple-podcast.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.hero{
+    background: url("./assets/hero-bg.png") center no-repeat,
+                linear-gradient(90deg,#140a2d,#1b0f3a);
+    /* padding: 120px 0; */
+    text-align: center;
+    position: relative;
+    height: 760px;
+    width: 1600px;
+   
+}
+.hero_main{
+    position: relative;
+     height: 760px;
+    width: 1600px;
+  
+}
+.hero_main h1{
+    color: white;
+    line-height: 60px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550px;
+  font-style: normal;
+}
+.hero_main p{
+    color: white;
+    line-height: 60px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    margin-top: 101px;
+    border: 2px solid black;
+}
+.mic{
+    position: absolute;
+    width: 120px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+.inside_btn_hero{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.inside_btn1{
+    margin: 2px;
+}
+.about{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 646px;
+    margin: 0px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.about_upper{
+    /* margin-top: 50px; */
+    margin: 50px 200px auto 200px;
+    width: 1200px;
+    height: 222px;
+    border: 2px solid black;
+    text-align: center;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  color: white;
+  margin-top: 30px;
+  
+}
+.about_upper h1{
+       font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+}
+ .about_upper p{
+    padding-top: 20px;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+  color: white;
+ }
+ .about_hr{
+    margin-top: 80px;
+ }
+.about_lower_container{
+    display: flex;
+    width:1200px;
+    height: 94px;
+    margin:80px 200px auto 200px;
+    gap:80px;
+}
+.about_lower{
+    width: 240px;
+    height: 94px;
+}
+.about_lower{
+    color: #00FF88;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 48px;
+  font-style: normal;
+}
+.
