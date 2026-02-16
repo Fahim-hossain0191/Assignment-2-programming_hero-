@@ -137,7 +137,7 @@
     width: 1600px;
     height: 646px;
     margin: 0px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
 }
 .about_upper{
     /* margin-top: 50px; */
@@ -189,4 +189,36 @@
   font-weight: 48px;
   font-style: normal;
 }
-.
+.why_choose{
+    background-color: #230E3D;
+    width: 1600px;
+    height: 1121px;
+    padding-top: 120px;
+}
+.why_choose h2{
+    margin:0 200px;
+    color: white;
+    text-align: center;
+}
+.container_why_choose{
+    margin: 40px 200px 0 200px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,273px);
+    height: 783px;
+    width: 1200px;
+    
+}
+.normal{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.large_col{
+         grid-column: span 2;
+        border: 2px solid black;
+}
+.large_row{
+     grid-row: span 2;
+        border: 2px solid black;
+}
