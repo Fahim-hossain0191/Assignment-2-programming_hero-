@@ -9,13 +9,20 @@
     width: 1600px;
     height: 92px;
 }
+/* .header h2{
+        font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+   color: ;
+} */
 .header_title{
     font-size: 2rem;
    color: white;
    margin: 30px 0px 30px 200px;
         font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500px;
+  font-weight: bold;
   font-style: normal;
 }
 .header ul{
@@ -38,8 +45,9 @@
 .btn{
     height: 44px;
     width: 135px;
-    border-radius: 12px;
-    background-color: #897e04;
+    border-radius: 30px;
+    /* background-color: #897e04; */
+    background-image: linear-gradient(to right top,#F7E93F 0%,#FB09B4 51%, #9100F8 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -47,29 +55,68 @@
     margin-left: 314px;
     margin-top: 24px;
 }
-.btn img{
+/* .btn img{
     width: 15px;
     height: 12.5px;
      color: white;
      display: flex;
-    
      
-}
+     
+} */
 .inside_btn{
       display: flex;
-     
+      align-items: center;
+      justify-content: center;
+      height: 19px;
+      width: 79px;
+      gap: 4px;
+      
+}
+.inside_btn p{
+    font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
 }
 .btn1{
     height: 44px;
     width: 135px;
     border-radius: 12px;
-    background-color: #897e04;
-    color: white;
+   
+     background-image: linear-gradient(to right top,#F7E93F 0%,#FB09B4 51%, #9100F8 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+    color: white;
+    gap: 3px;
+        font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700px;
+   font-size: 12px;
+   font-style: normal;
+
+}
+.custom_hr{
+    border: none;
+    border-top: 2px solid #351165;
+    width: 1600px;
 }
 
+.btn2{
+      height: 44px;
+    width: 135px;
+    border-radius: 12px;
+      color: #00FF88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #00FF88;
+    background:transparent;
+    gap: 3px;
+}
 /* .hero {
   display: grid;
   place-items: center;
@@ -96,10 +143,11 @@
 .hero_main h1{
     color: white;
     line-height: 60px;
-      font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 550px;
-  font-style: normal;
+          font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-size: 45px;
+   font-style: normal;
 }
 .hero_main p{
     color: white;
@@ -118,13 +166,13 @@
 .mic{
     position: absolute;
     width: 120px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid black;
+    top: 24%;
+    left: 46%;
+    /* transform: translate(-50%, -50%); */
+    /* border: 2px solid black; */
 }
 .inside_btn_hero{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -136,15 +184,16 @@
     background-color: #1A0B2E;
     width: 1600px;
     height: 646px;
-    margin: 0px;
-    border: 1px solid rgb(0, 0, 0);
+    padding-top: 50px;
+   
 }
 .about_upper{
     /* margin-top: 50px; */
-    margin: 50px 200px auto 200px;
+    /* margin: 50px 200px auto 200px; */
+      margin: 0 200px;
     width: 1200px;
     height: 222px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
      font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -170,6 +219,10 @@
  }
  .about_hr{
     margin-top: 80px;
+     border: none;
+    border-top: 2px solid #351165;
+     width:1200px;
+     margin-left: 180px;
  }
 .about_lower_container{
     display: flex;
@@ -189,21 +242,27 @@
   font-weight: 48px;
   font-style: normal;
 }
+.about_lower {
+    color: #ffffff;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 48px;
+  font-style: normal;
+}
 .why_choose{
     background-color: #230E3D;
     width: 1600px;
     height: 1121px;
     padding-top: 120px;
 }
-.why_choose h2{
+.why_choose h1{
     margin:0 200px;
     color: white;
     text-align: center;
-      font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 48px;
+        font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
 }
 .container_why_choose{
     margin: 40px 200px 0 200px;
@@ -469,16 +528,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 .lower_container_item{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 114px;
+    width: 134px;
     height: 24px;
+   
     
 }
 .lower_container_item small{
     padding-left: 10px;
+    font-family: "Inter", sans-serif;
 }
