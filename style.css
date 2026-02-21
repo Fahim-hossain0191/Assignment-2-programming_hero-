@@ -573,9 +573,9 @@
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  display: flex; /* important */
-  justify-content: center; /* horizontal center */
-  align-items: center; /* vertical center */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 .lower {
   background: url("./assets/footer-bg.png") center no-repeat;
